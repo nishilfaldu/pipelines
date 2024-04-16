@@ -19,7 +19,7 @@ TEST_METHOD(TestMethod2)
 {
 
 	CoolClass coolClass;
-	Assert::AreEqual(6, coolClass.Calc(3, 100));
+	Assert::AreEqual(6, coolClass.Calc(3, 99));
 }
 }
 ;
