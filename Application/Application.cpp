@@ -6,16 +6,15 @@
 
 CoolClass::CoolClass(void)
 {
-}
 
-int CoolClass::Calc(int a, int b)
-{
-    if (a == b)
+    int CoolClass::Calc(int a, int b)
     {
-        return 2 * a;
+        if (a == b)
+        {
+            return 2 * a;
+        }
+        else
+        {
+            return a + b;
+        }
     }
-    else
-    {
-        return a + b;
-    }
-}
