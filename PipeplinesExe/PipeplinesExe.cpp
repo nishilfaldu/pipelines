@@ -8,6 +8,7 @@ int main()
 {
     std::cout << "Hello World!\n";
     std::cout << "Hello World! Part 2\n";
+    std::cout << "Hello World! Part 3\n";
     CoolClass coolClass;
     std::cout << "Calc " << coolClass.Calc(1, 2);
 }
